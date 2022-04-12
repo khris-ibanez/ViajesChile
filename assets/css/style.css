@@ -12,9 +12,7 @@ hr{
     background-color: silver;
 }
 
-button{
-    background-color: #23c9e9 !important;
-}
+
 
 #cards{
     margin: 1%;
@@ -23,7 +21,7 @@ button{
     background-color: #23c9e9;
 }
 
-#cicons1{
+#cicons1, footer{
     background-color: #23c9e9;
 }
 
@@ -47,3 +45,4 @@ button{
     background:none;
     width:100%;
 }
+
