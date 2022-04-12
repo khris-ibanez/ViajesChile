@@ -26,13 +26,13 @@
                         <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Quienes Somos</a>
+                        <a class="nav-link" href="#QS">Quienes Somos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Destacados</a>
+                        <a class="nav-link" href="#D">Destacados</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#" >Contacto</a>
+                        <a class="nav-link" href="#C" >Contacto</a>
                     </li>
                 </ul>
                 </div>
@@ -63,7 +63,7 @@
     </div>
 </header>
 <aside class="d-none d-sm-none d-md-block">
-    <h2 class="pt-4">¿QUIÉNES SOMOS?</h2>
+    <h2 id="QS" class="pt-4">¿QUIÉNES SOMOS?</h2>
     <hr>
     <div class="container py-5">
         <div class="row d-flex justify-content-around">
@@ -92,7 +92,7 @@
 </aside>
 <section>
     <article>
-        <h2 class="pb-1">DESTACADOS</h2>
+        <h2 id="D" class="pb-1">DESTACADOS</h2>
         <hr>
             <div class="container">
                 <div class="row d-flex justify-content-center">
@@ -133,17 +133,17 @@
             </div>
     </article>
     <article>
-        <h2 class="pt-5">CONTACTO</h2>
+        <h2 id="C" class="pt-5">CONTACTO</h2>
         <hr>
         <form>
             <div class="mb-1 px-3">
-              <label for="exampleInputEmail1" class="form-label text-white">Nombre</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <label for="exampleInputName1" class="form-label text-white">Nombre</label>
+              <input type="name" class="form-control" id="exampleInputName1" >
               
             </div>
             <div class="mb-1 px-3">
-              <label for="exampleInputPassword1" class="form-label text-white">Asunto</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <label for="exampleInputName1" class="form-label text-white">Asunto</label>
+              <input type="name" class="form-control" id="exampleInputName1">
             </div>
             
             
@@ -154,7 +154,7 @@
 
             </div>
             <div class="px-3 pt-2 pb-5">
-            <button type="submit"  class="btn text-white" style="background-color: #23c9e9;">Enviar</button>
+            <button id="botone" type="submit"  class="btn text-white" data-bs-toggle="tooltip" data-bs-placement="right" title="Envia tus Sugerencias y dudas." style="background-color: #23c9e9;">Enviar</button>
             </div>
           </form>
     </article>
@@ -167,10 +167,10 @@
             </div>
 
             <div class="col-12 col-md-6 d-flex justify-content-center">
-                <i class="fa-brands fa-linkedin" style="color: white;"></i>
-                <i class="fa-brands fa-twitter" style="color: white;"></i>
-                <i class="fa-brands fa-facebook-square" style="color: white;"></i>
-                <i class="fa-brands fa-twitch" style="color: white;"></i>
+                <a href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin" style="color: white;"></i></a>
+                <a href="https://www.twitter.com/"><i class="fa-brands fa-twitter" style="color: white;"></i></a>
+                <a href="https://www.facebook.com/"><i class="fa-brands fa-facebook-square" style="color: white;"></i></a>
+                <a href="https://www.twitch.com/"><i class="fa-brands fa-twitch" style="color: white;"></i></a>
             </div>
 
         </div>
