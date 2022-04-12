@@ -1,0 +1,30 @@
+aside{
+    background-color: black;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+#cicons1{
+    background-color: #23c9e9;
+}
+
+.logo{
+    width: 20px;
+}
+
+.bannerContainer {
+    position:relative;     
+}
+.carousel {
+    top:0;    
+}
+.navbar {
+    position:absolute;
+    z-index:10;
+    background:none;
+    width:100%;
+    
+}
